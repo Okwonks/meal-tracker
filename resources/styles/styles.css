@@ -11,6 +11,12 @@ p {
   font-size: 1.2em;
 }
 
+.footer {
+  margin-top: 10%;
+  padding-left: 2%;
+  text-align: center;
+}
+
 #calories-span {
   font-size: 0.95em;
 }

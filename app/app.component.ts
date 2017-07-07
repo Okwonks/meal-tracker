@@ -22,7 +22,7 @@ import { Meal } from './meal.model';
   <div class="footer">
     <footer>
     <div id="footer">
-      WillisCode &#169
+      WillisCode © 2017
       <script>
         document.write(new Date().getFullYear());
       </script>
