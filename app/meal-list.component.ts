@@ -10,6 +10,7 @@ import { Meal } from './meal.model';
         <h5>{{currentMeal.meal}}</h5>
         <p>{{currentMeal.description}}</p>
         <span class="label label-default">{{currentMeal.calories}} Calories</span>
+        <!--<meal-display [meal]="currentMeal"></meal-display>-->
         <hr>
         <button class="btn btn-info btn-sm" (click)="editMealClicked(currentMeal)">Edit</button>
       </div>
