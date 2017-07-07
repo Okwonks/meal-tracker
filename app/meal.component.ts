@@ -5,8 +5,8 @@ import { Meal } from './meal.model';
   selector: 'meal-display',
   template: `
   <div>
-    <label *ngIf="meal.done === true" class="label label-danger" (click)="toggleDone(false)">{{meal.calories}}</label>
-    <label *ngIf="meal.done === false" class="label label-default" (click)="toggleDone(true)">{{meal.calories}}</label>
+    <span *ngIf="meal.done === true" class="label label-danger" (click)="toggleDone(false)">{{meal.calories}}</span>
+    <span *ngIf="meal.done === false" class="label label-default" (click)="toggleDone(true)">{{meal.calories}}</span>
   </div>
   `
 })
