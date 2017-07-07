@@ -19,6 +19,17 @@ import { Meal } from './meal.model';
     </div>
     <br>
   </div>
+  <div class="footer">
+    <footer>
+    <div id="footer">
+      WillisCode &#169
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+      All Rights Reserved
+    </div>
+    </footer>
+  </div>
   `
 })
 

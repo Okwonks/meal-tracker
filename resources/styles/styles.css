@@ -7,6 +7,14 @@ h1 {
   font-family: 'Lobster',cursive;
 }
 
+p {
+  font-size: 1.2em;
+}
+
+#calories-span {
+  font-size: 0.95em;
+}
+
  #header {
    box-shadow: 2px 2px 2px #9b9b9b;
  }
