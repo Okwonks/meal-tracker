@@ -1,3 +1,20 @@
+body {
+  font-family: 'Crimson Text', serif;
+}
+
 h1 {
-  color: blue;
+  color: #0000cc;
+  font-family: 'Lobster',cursive;
+}
+
+ #header {
+   box-shadow: 2px 2px 2px #9b9b9b;
+ }
+
+#meal-well {
+  box-shadow: 2px 2px 3px 1px #9b9b9b;
+}
+
+#select {
+  width: 10%;
 }

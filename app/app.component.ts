@@ -5,8 +5,10 @@ import { Meal } from './meal.model';
   selector: 'my-app',
   template: `
   <div class="container">
+  <div class="jumbotron" id="header">
   <div class="page-header">
     <h1>Track Your Meals</h1>
+  </div>
   </div>
     <meal-list [childMealList]="mainMealList" (clickSender)="showDetails($event)"></meal-list>
     <div class="container-fluid">
