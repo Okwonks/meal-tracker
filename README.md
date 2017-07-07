@@ -13,7 +13,6 @@
 > 3. The user should be able to edit meals
 > 4. At a glance users should be able to view the calories of their meal
 >
->--
 
 #### Technologies
 
