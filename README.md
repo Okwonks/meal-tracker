@@ -19,6 +19,6 @@
 > This app has been built using [Angular](https://angular.io/), HTML and CSS.
 > The app also uses bower_components and is managed by node package manager(npm).
 >--
-> Click [here](https://designer-rigs-65460.netlify.com/ ) for the deployed app.
+> Click [here](http://solicitor-snake-44302.netlify.com/) for the deployed app.
 >--
 > WillisCode | Credit [Moringa School](http://moringaschool.com/)
