@@ -36,8 +36,8 @@ import { Meal } from './meal.model';
 export class AppComponent {
   public mainMealList: Meal [] = [
     new Meal("Breakfast", "Breakfast", "Describe me...", 200),
-    new Meal("Lunch", "Whats for lunch...", "Describe me...", 200),
-    new Meal("Dinner", "Before we sleep..", "Describe me...", 200),
+    new Meal("Lunch", "Whats for lunch...", "Describe me...", 600),
+    new Meal("Dinner", "Before we sleep..", "Describe me...", 500),
   ];
   selectedMeal: Meal = null;
   showDetails(clickedMeal: Meal) {

@@ -6,15 +6,15 @@ import { Meal } from './meal.model';
   template: `
   <div class="form-group" id="select">
     <select (change)="onChange($event.target.value)" class="form-control">
-      <option value="all">Show all.. </option>
-      <option value="gains">Low Calories.. </option>
-      <option value="loses" selected="selected">High Calories.. </option>
+      <option value="all" selected="selected">Show all.. </option>
+      <option value="loses">Low Calories.. </option>
+      <option value="gains">High Calories.. </option>
     </select>
   </div>
   <br>
   <br>
     <div class="row">
-      <div class="col-md-4" *ngFor="let currentMeal of childMealList">
+      <div class="col-md-4" *ngFor="let currentMeal of childMealList | caloried:selectedCalories">
       <div class="well" id="meal-well">
         <h3>{{currentMeal.type}}</h3>
         <h5>{{currentMeal.meal}}</h5>
