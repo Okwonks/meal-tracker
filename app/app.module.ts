@@ -5,7 +5,9 @@ import { AppComponent }   from './app.component';
 import { MealListComponent } from './meal-list.component';
 import { EditMealComponent } from './edit-meal.component';
 import { NewMealComponent } from './new-meal.component';
-import { CalorieWatchPipe } from './calorie-watch.pipe';
+import { CalorieWatchPipe } from './caloried.pipe';
+import { MealComponent } from './meal.component';
+
 
 @NgModule({
   imports: [
